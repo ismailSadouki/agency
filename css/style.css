@@ -1,0 +1,78 @@
+header
+{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+}
+
+header .overlay 
+{
+    background: linear-gradient(
+        to right,
+        rgba(41, 153, 155, 0.8) 0%,
+        rgba(167, 173, 44, 0.8) 100%
+    );
+    height: 100vh;
+}
+
+@font-face
+{
+    font-family: ar-font;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+body
+{
+    font-family: ar-font;
+    direction: rtl;
+}
+
+nav.navbar ul.navbar-nav
+{
+    padding-right:0;
+}
+
+nav.navbar ul.navbar-nav li a.nav-link
+{
+    color: #e8e8e8;
+    font-size: 16px;
+    line-height: 40px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    transition: all .5s ease;
+}
+
+nav.navbar ul.navbar-nav li a.nav-link:hover,
+nav.navbar ul.navbar-nav li a.nav-link.active
+{
+    color: #16aeca;
+    background-color: #ffffff;
+}
+
+nav.navbar .navbar-brand img 
+{
+    width: 100%;
+}
+
+nav.navbar.noTransparent ul.navbar-nav li a.nav-link
+{
+    color: #16aeca;
+}
+
+nav.navbar.noTransparent ul.navbar-nav li a.nav-link:hover,
+nav.navbar.noTransparent ul.navbar-nav li a.nav-link.active
+{
+    color: #dae413;
+    background-color: #16aeca;
+}
+
+nav.navbar.noTransparent .navbar-brand img 
+{
+    width: 80%;
+}
+
+nav.navbar.noTransparent
+{
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+}
