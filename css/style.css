@@ -54,6 +54,10 @@ nav.navbar .navbar-brand img
     width: 100%;
 }
 
+nav.navbar.noTransparent *  /* bug */
+{
+    transition: all .5s ease;
+}
 nav.navbar.noTransparent ul.navbar-nav li a.nav-link
 {
     color: #16aeca;
