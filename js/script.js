@@ -4,4 +4,12 @@ $(window).scroll(function(){
     } else{
         $("#navBar").removeClass("noTransparent");
     }
-})
+});
+
+$(document).ready(function() {
+    $("a.scroll").on('click', function() {
+        var hash = this.hash;
+
+        $('html, body').animate({scrollTop: $(hash).offset().top}, 800, function() {})
+    });
+});

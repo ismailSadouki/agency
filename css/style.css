@@ -54,7 +54,7 @@ nav.navbar .navbar-brand img
     width: 100%;
 }
 
-nav.navbar.noTransparent *  /* bug */
+nav.navbar.noTransparent *
 {
     transition: all .5s ease;
 }
