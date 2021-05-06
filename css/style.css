@@ -80,3 +80,36 @@ nav.navbar.noTransparent
     background-color: #ffffff;
     border-bottom: 1px solid #eee;
 }
+
+nav.navbar button.navbar-toggler
+{
+    margin: 30px auto;
+    transition: all 1s ease;
+}
+nav.navbar button.navbar-toggler span 
+{
+    color: #ffffff;
+}
+
+nav.navbar.noTransparent button.navbar-toggler span {
+    color: #16aeca; 
+  }
+
+@media (max-width: 767px) {
+    nav.navbar .container {
+        max-width: 100%;
+        flex-direction: row-reverse; 
+    }
+    .navbar .navbar-toggler {
+        outline: none;
+        margin: 0 !important;
+    }
+    .navbar .navbar-toggler span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav.navbar .navbar-brand img {
+        width: 80%;
+    }
+}
