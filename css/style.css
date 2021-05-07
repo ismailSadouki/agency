@@ -113,3 +113,74 @@ nav.navbar.noTransparent button.navbar-toggler span {
         width: 80%;
     }
 }
+
+
+header .overlay .slider .carousel-inner .carousel-item
+{
+    min-height: 100vh;
+    opacity: 0;
+}
+
+header .overlay .slider .carousel-inner .carousel-item.active .carousel-caption
+{
+    opacity: 1;
+}
+
+header .overlay .slider .carousel-inner .carousel-item.active
+{
+    opacity: 1;
+}
+header .overlay .slider .carousel-inner .carousel-item .carousel-caption h3
+{
+    font-size: 40px;
+    line-height: 60px;
+    transform: translateY(50px);
+    transition: all 1s ease;
+}
+header .overlay .slider .carousel-inner .carousel-item.active .carousel-caption h3
+{
+    transform: translateY(0px);
+}
+header .overlay .slider .carousel-inner .carousel-item .carousel-caption
+{
+    bottom: 30%;
+}
+header .overlay .slider .carousel-inner .carousel-item .carousel-caption a
+{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #16aeca;
+    line-height:50px;
+    border-radius: 30px;
+    padding:0 2rem;
+    margin-top:30px;
+    display: inline-block;
+    transform: translateY(50px);
+    transition: all 1s ease;
+}
+header .overlay .slider .carousel-inner .carousel-item.active .carousel-caption a
+{
+    transform: translateY(0px);
+}
+
+header .overlay .slider .carousel-inner .carousel-item .carousel-caption a:hover
+{
+    background-color: #dae413;
+    color: #555555;
+}
+header .overlay .slider .carousel-control-prev i,
+header .overlay .slider .carousel-control-next i
+{
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    padding: 30px 20px;
+}
+
+header .overlay .slider .carousel-control-prev
+{
+    left: 20px;
+}
+header .overlay .slider .carousel-control-next
+{
+    right: 20px;
+}
