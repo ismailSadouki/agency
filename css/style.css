@@ -157,6 +157,7 @@ header .overlay .slider .carousel-inner .carousel-item .carousel-caption a
     display: inline-block;
     transform: translateY(50px);
     transition: all 1s ease;
+    text-decoration: none;
 }
 header .overlay .slider .carousel-inner .carousel-item.active .carousel-caption a
 {
@@ -235,4 +236,44 @@ section.services .card  .card-block p
 section.services .card:hover .card-block p
 {
     opacity: 1;
+}
+section.gallery .title h2
+{
+    font-size: 40px;
+    line-height:60px;
+}
+section.gallery .title
+{
+    margin-bottom: 50px;
+}
+section.gallery .work-gallery a
+{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+section.gallery .work-gallery a .hover 
+{
+    background-color: rgba(22, 174, 202, 0.9);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    color: #fff;
+    opacity: 0;
+    transition: all 1s ease;
+}
+section.gallery .work-gallery a:hover .hover 
+{
+    opacity: 1;
+}
+section.gallery .work-gallery a .hover i
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:2rem;
 }
