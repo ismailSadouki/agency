@@ -379,3 +379,74 @@ section.statistics .overlay .stat .count
     font-weight: bold;
     color: #ddfaff;
 }
+
+section.contacts
+{
+    background-color: #ffffff;
+    padding-top: 100px;
+}
+section.contacts .info h3
+{
+    font-size: 24px;
+    line-height: 50px;
+    color: #181c1c;
+    font-weight: bold;
+}
+section.contacts .info ul li
+{
+    font-size: 18px;
+    line-height: 25px;
+    color: #16aeca;
+    margin-bottom: 15px;
+}
+section.contacts .info ul
+{
+    padding: 0;
+}
+section.contacts .info ul li i 
+{
+    margin-left: 6px;
+}
+
+section.contacts .form h3
+{
+    font-size: 24px;
+    line-height: 50px;
+    color: #181c1c;
+    font-weight: bold;
+    margin: 50px auto 20px;
+}
+section.contacts .form form input,
+section.contacts .form form textarea
+{
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    color: #5c5c5c;
+    font-family: ar-font;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+section.contacts .form form button
+{
+    background-color: #16aeca;
+    font-family: ar-font;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 25px;
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: 0;
+    margin-right:15px;
+    cursor: pointer;
+}
+section.contacts .cmxform
+{
+    width: 60%;
+    margin: 0 auto 50px;
+}
+
+section.contacts .form form .error
+{
+    color: red;
+}
